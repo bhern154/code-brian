@@ -1,0 +1,34 @@
+body {
+    background-color: var(--secondary-background-color);
+}
+
+.full-width-div {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100%; /* Full width */
+    text-align: center; /* Centers multiline text */
+    box-sizing: border-box; /* Ensure padding doesn't affect the layout */
+  }
+
+.heading {
+    line-height: 100px;
+}
+
+.sub-heading {
+    padding: 10px;
+}
+
+.home-title-block {
+    height: 40vh; /* Set height for the div */
+    background-color: white;
+}
+
+.home-name-block {
+    height: 20vh; /* Set height for the div */
+    background: linear-gradient(to bottom, white 50%, var(--secondary-background-color) 50%);
+}
+
+.home-introduction-block {
+    height: 40vh; /* Set height for the div */
+}

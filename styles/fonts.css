@@ -1,0 +1,57 @@
+/* Import Heathergreen */
+@font-face {
+    font-family: 'Heathergreen';
+    src: url('../fonts/Heathergreen.otf') format('opentype');
+  }
+  
+/* Import Avenir */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.ttc') format('ttc');
+}
+
+/* Import Avenir Next */
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/Avenir\ Next.ttc') format('ttc');
+}
+
+/* Import Avenir Next Condensed */
+@font-face {
+    font-family: 'Avenir Next Condensed';
+    src: url('../fonts/Avenir\ Next\ Condensed.ttc') format('ttc');
+}
+
+.heading {
+    font-family: 'Heathergreen', Arial, sans-serif;
+    font-size: 110px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 0 var(--text-shadow);
+}
+
+.sub-heading {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sub-heading-thin {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 30px;
+    font-weight: 300;
+}
+
+p {
+    /* font-family: 'Avenir Next Condensed'; */
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+
+a {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}

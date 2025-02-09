@@ -1,0 +1,97 @@
+body {
+    background-color: var(--secondary-background-color);
+}
+
+.heading{
+    text-align: center;
+    margin: 0px;
+}
+
+.sub-heading {
+    line-height: 30px;
+    margin: 0px
+}
+
+.sub-heading-thin {
+    line-height: 30px;
+    margin: 0px
+}
+
+.dates {
+    font-size: 13px;
+    color: #bd2f2f;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+
+.work-block{
+    padding: 25px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    justify-content: left; /* Centers horizontally */
+    align-items: left; /* Centers vertically */
+    text-align: left; /* Centers multiline text */
+    overflow: hidden;
+    position: relative; /* Allow positioning of child elements */
+}
+
+.work-block-image-laptop{
+    /* width: 150%; */
+    height: 300px; 
+    left: -200px;
+    position: relative;
+}
+
+.work-block-image-mobile {
+    height: 300px;
+    position: relative;
+    top: 50%; /* Vertically center the image */
+    left: 50%; /* Horizontally center the image */
+    transform: translate(-50%, 0%);
+}
+
+.skills-tags {
+    display: flex; /* Align items in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    gap: 10px; /* Space between the tags */
+    padding-bottom: 10px; /* Optional padding around the tag container */
+}
+
+.skills-tags p {
+    background-color: #f0f0f0;   /* Light gray background for the tags */ 
+    padding: 5px 10px;           /* Space inside each tag */
+    border-radius: 20px;         /* Rounded edges to create the pill effect */
+    font-size: 10px;             /* Font size for readability */
+    font-weight: 500;            /* Slightly bold text */
+    margin: 0;                   /* Remove default margin from <p> */
+    display: inline-block;       /* Ensure each <p> behaves like an inline element */
+    white-space: nowrap;         /* Prevent text from wrapping within a tag */
+    cursor: default;             /* Cursor remains default (change to pointer if clickable) */
+    transition: background-color 0.3s ease;  /* Smooth hover transition */
+}
+
+.website-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    line-height: 12px;
+    /* margin-top: 10px; */
+}
+
+.website-link:hover {
+    color: #014288;
+}
+
+.website-link .fa-link {
+    margin-left: 5px; /* Space between text and icon */
+    font-size: 15px;  /* Icon size */
+}

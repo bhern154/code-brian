@@ -1,0 +1,82 @@
+/* navbar.css */
+
+/* Add a wrapper around the nav to align it to the right */
+.navbar-wrapper {
+    position: fixed; /* Keep it fixed at the bottom of the viewport */
+    bottom: 20px; /* Set distance from the bottom of the screen */
+    right: 20px; /* Align the navbar to the right */
+    width: fit-content; /* Ensure wrapper only takes necessary width */
+    max-width: 95vw; /* Limit maximum width to 80% of the viewport */
+    background-color: black; /* Set background color */
+    padding: 0px 10px 1px 10px; /* Add padding for spacing and styling */
+    border-radius: 25px; /* Round the corners for a smoother look */
+    min-height: 43px; /* Maintain minimum height for consistent appearance */
+    transition: all 0.3s ease; /* Smooth transition for state changes */
+    z-index: 1000; /* Ensure the navbar stays above other elements */
+}
+
+/* Ensure nav items are aligned vertically */
+nav {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center nav items */
+    justify-content: flex-start; /* Align items to the left */
+    width: max-content; /* Allow content to determine width */
+    position: relative; /* Position relative for child elements */
+    padding-right: 40px; /* Leave space for the toggle button */
+    min-height: 43px; /* Match the height of navbar-wrapper */
+}
+
+/* Style the links */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color */
+    margin: 0 10px; /* Add horizontal spacing between links */
+    padding: 10px 0; /* Add vertical padding for better clickability */
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center; /* Ensure text is vertically centered */
+    height: 100%; /* Make sure links take up full navbar height */
+    font-family: 'Avenir Next Condensed'; /* Set custom font */
+    font-size: 14px; /* Adjust font size */
+    font-style: normal; /* Medium font weight */
+    font-weight: 400; /* Set font weight */
+    text-align: center; /* Center text */
+}
+
+/* When the nav is collapsed, hide only the links */
+nav.collapsed a {
+    display: none; /* Hide the <a> elements when collapsed */
+}
+
+/* Style the toggle button */
+.toggle-btn {
+    background-color: rgba(0, 0, 0, 0); /* Set transparent background */
+    font-size: 24px; /* Define arrow size */
+    color: white; /* Set arrow color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute; /* Absolute position within the nav */
+    right: 0px; /* Align button to the right edge */
+    top: -2px; /* Move button slightly upward for better alignment */
+    border: none; /* Remove button border */
+    outline: none; /* Remove focus outline */
+    height: 43px; /* Set button height */
+    width: 40px; /* Set button width */
+}
+
+/* Change button appearance when active */
+.toggle-btn.active {
+    background-color: none; /* Keep background transparent */
+}
+
+/* Arrow icon styling */
+.toggle-btn::before {
+    content: '→'; /* Default arrow direction */
+    font-size: 24px; /* Define arrow size */
+}
+
+/* When the navbar is collapsed, change the arrow direction */
+nav.collapsed .toggle-btn::before {
+    content: '←'; /* Change arrow direction to indicate expansion */
+}
