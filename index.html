@@ -6,30 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Brian - Home</title>
 
-    <!-- Link to styles -->
-    <link rel="stylesheet" href="/styles/fonts.css">
-    <link rel="stylesheet" href="/styles/home-layout.css">
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/colors.css">
-    <link rel="stylesheet" href="/styles/navbar.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- LINKED STYLESHEETS -->
+    <link rel="stylesheet" href="/styles/fonts.css"> <!-- Custom fonts -->
+    <link rel="stylesheet" href="/styles/home-layout.css"> <!-- Home page layout styles -->
+    <link rel="stylesheet" href="/styles/global.css"> <!-- Global styles for the website -->
+    <link rel="stylesheet" href="/styles/colors.css"> <!-- Color theme definitions -->
+    <link rel="stylesheet" href="/styles/navbar.css"> <!-- Navbar styling -->
+
+    <!-- JAVASCRIPT LIBRARIES -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for dynamic behavior -->
 </head>
+
 <body>
+
+    <!-- NAVIGATION BAR -->
+    <div id="navbar"></div> <!-- Navbar will be dynamically loaded by navbar.js -->
+
+    <!-- HERO SECTION -->
     <div class="full-width-div home-title-block">
-        <p class="heading">FULL STACK DEVELOPER</p>
+        <p class="heading accent-color">WEB DEVELOPER</p> <!-- Main title -->
     </div>
 
+    <!-- NAME INTRODUCTION SECTION -->
     <div class="full-width-div home-name-block">
-        <p class="sub-heading">Hi there,<br> I'm Brian Hernandez</p>
+        <p class="name">Hi there,<br> I'm <span class="accent-color">Brian Hernandez</span></p> <!-- Personal introduction -->
     </div>
 
+    <!-- ABOUT ME SECTION -->
     <div class="home-intro-block">
-        <p>I’m a passionate full-stack developer who enjoys creating eye-catching, easy-to-use websites and apps. My focus is on making designs that look great and work even better. I’m all about writing clean, scalable code that keeps things running smoothly, no matter how big the project gets.</p>
+        <p class="introduction">
+            I’m a passionate full-stack developer who enjoys creating eye-catching, easy-to-use websites and apps. 
+            My focus is on making designs that look great and work even better. I’m all about writing clean, 
+            scalable code that keeps things running smoothly, no matter how big the project gets.
+        </p>
     </div>
 
-    <div id="navbar"></div>
+    <!-- JAVASCRIPT FILES -->
+    <script src="scripts/navbar.js"></script> <!-- Loads the navbar dynamically -->
 
-    <!-- Load the merged navbar.js -->
-    <script src="scripts/navbar.js"></script>
 </body>
 </html>

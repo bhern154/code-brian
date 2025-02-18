@@ -1,16 +1,19 @@
+/* Global Styles */
 body {
     background-color: var(--secondary-background-color);
 }
 
+/* Layout and Containers */
 .full-width-div {
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
-    width: 100%; /* Full width */
-    text-align: center; /* Centers multiline text */
-    box-sizing: border-box; /* Ensure padding doesn't affect the layout */
-  }
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
 
+/* Typography */
 .heading {
     line-height: 100px;
 }
@@ -19,6 +22,21 @@ body {
     padding: 10px;
 }
 
+.name {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.introduction {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1d1d1f;
+}
+
+/* Section Heights & Backgrounds */
 .home-title-block {
     height: 40vh; /* Set height for the div */
     background-color: white;
@@ -35,4 +53,43 @@ body {
 
 .home-intro-block {
     padding: 30px;
+}
+
+/* Desktop Styles (768px and above) */
+@media screen and (min-width: 768px) { 
+    .heading {
+        line-height: 120px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .name {
+        font-size: 50px;
+    }
+
+    .introduction {
+        line-height: 1.4;
+        font-size: 30px;
+    }
+
+    .home-title-block {
+        height: 40vh; /* Adjust height for desktop */
+    }
+
+    .home-name-block {
+        height: 20vh;
+    }
+
+    .home-introduction-block {
+        height: 40vh;
+    }
+
+    .home-intro-block {
+        padding: 50px;
+        max-width: 800px; /* Keep content from stretching too wide */
+        margin: 0 auto; /* Center alignment */
+    }
 }

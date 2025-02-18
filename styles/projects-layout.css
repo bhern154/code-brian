@@ -1,6 +1,9 @@
 /* Define color variables */
 :root {
     --secondary-background-color: #f0f0f0; /* Example value for secondary background */
+    --dates-color: #bd2f2f; /* Red color for dates */
+    --text-color: #007bff; /* Link color */
+    --hover-color: #014288; /* Hover color for links */
     --tag-background-color: #f0f0f0; /* Background color for skill tags */
     --black-color: #000000; /* Black color for text */
 }
@@ -30,6 +33,8 @@ body {
 
 /* Dates section styling */
 .dates {
+    font-size: 13px;
+    color: var(--dates-color); /* Using color variable for dates */
     margin: 0px;
     margin-top: 10px;
 }
@@ -39,8 +44,8 @@ p {
     margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
 }
 
-/* Work block container */
-.work-block {
+/* Project block container */
+.project-block {
     padding: 25px;
     background-color: white;
     margin: 10px;
@@ -53,16 +58,16 @@ p {
     position: relative; /* Allows for positioning of child elements */
 }
 
-/* Image for work block (laptop version) */
-.work-block-image-laptop {
+/* Image for project block (laptop version) */
+.project-block-image-laptop {
     /* height: 300px; */
     width: 115%;
     left: -25%; /* Shift image to the left */
     position: relative;
 }
 
-/* Image for work block (mobile version) */
-.work-block-image-mobile {
+/* Image for project block (mobile version) */
+.project-block-image-mobile {
     height: 300px;
     position: relative;
     left: 50%;  /* Move the image to the middle of the parent container */
@@ -77,35 +82,33 @@ p {
     padding-bottom: 10px; /* Padding around the tag container */
 }
 
-/* Styling for skill tags */
+/* Individual skill tags */
 .skills-tags p {
-    display: flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Vertically align the icon with the text */
-    gap: 5px; /* Space between the icon and text */
     background-color: var(--tag-background-color); /* Using color variable for tag background */
-    padding: 5px 10px; /* Padding inside each tag */
-    border-radius: 20px; /* Rounded edges for pill effect */
-    font-size: 12px; /* Font size for readability */
-    font-weight: 500; /* Slightly bold text */
-    margin: 0; /* Remove default margin */
-    display: inline-flex; /* Ensure tags are inline */
-    white-space: nowrap; /* Prevent text from wrapping */
-    cursor: default; /* Default cursor style */
+    padding: 5px 10px;            /* Padding inside each tag */
+    border-radius: 20px;          /* Rounded edges for pill effect */
+    font-size: 10px;              /* Font size for readability */
+    font-weight: 500;             /* Slightly bold text */
+    margin: 0;                    /* Remove default margin */
+    display: inline-block;        /* Ensure tags are inline */
+    white-space: nowrap;          /* Prevent text from wrapping */
+    cursor: default;              /* Default cursor style */
     transition: background-color 0.3s ease; /* Smooth background color transition */
-}
-
-/* Styling for skill icons */
-.skill-icon {
-    height: 20px; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure the icon scales properly */
 }
 
 /* Website link container */
 .website-link {
     display: inline-flex;
     align-items: center;
+    font-size: 16px;
+    color: var(--text-color); /* Using color variable for link color */
     text-decoration: none; /* Remove underline */
     line-height: 12px;
+}
+
+/* Hover effect for website link */
+.website-link:hover {
+    color: var(--hover-color); /* Using color variable for hover color */
 }
 
 /* Link icon styling */
@@ -138,19 +141,19 @@ p {
         margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
     }
 
-    .work-container { 
+    .projects-container { 
         display: grid;           /* Use grid layout */
         grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
         gap: 0px;               /* Space between columns */
     }
 
-    .work-block {
+    .project-block {
         /* Ensure each block takes full width of its grid cell */
         width: 100% - 10px;
     }
 
-    /* Image for work block (laptop version) */
-    .work-block-image-laptop {
+    /* Image for project block (laptop version) */
+    .project-block-image-laptop {
         padding-top: 20px;
         height: auto;
         width: 90%;
@@ -159,8 +162,8 @@ p {
         transform: translateX(-50%);  /* Shift the image back by 50% of its width to perfectly center it */
     }
 
-    /* Image for work block (mobile version) */
-    .work-block-image-mobile {
+    /* Image for project block (mobile version) */
+    .project-block-image-mobile {
         height: 380px;
         position: relative;
     }

@@ -6,7 +6,15 @@
         "website": "https://hermosabeauty.com",
         "websiteDisplay": "hermosabeauty.com",
         "description": "Redesigned and relaunched Hermosa Beauty's website, achieving a 5X boost in customer retention through scalable web solutions and optimized UI/UX with custom web features like dynamic product grouping, advanced filtering, and seamless Wishlist integration.",
-        "skills": ["HTML", "CSS", "JavaScript", "Liquid", "Shopify", "Templating", "APIs"],
+        "skills": [
+            {"name": "HTML", "icon": "html-icon.png"},
+            {"name": "CSS", "icon": "css-icon.png"},
+            {"name": "JavaScript", "icon": "javascript-icon.png"},
+            {"name": "Shopify", "icon": "shopify-icon.png"},
+            {"name": "Liquid", "icon": "liquid-icon.png"},
+            {"name": "Templating", "icon": "liquid-icon.png"},
+            {"name": "APIs", "icon": "apis-icon.png"}
+        ],
         "image": "/images/hermosa-beauty-website-desktop.png",
         "imageAlt": "Hermosa Beauty Website",
         "imageClass": "work-block-image-laptop"
@@ -17,8 +25,16 @@
         "dates": "APR 2022 – SEP 2023",
         "website": "https://707street.com",
         "websiteDisplay": "707street.com",
-        "description": "Contributed to the relaunch of 707 Street's website by implementing advanced product filters, PDP features, cart and checkout flows, Wishlist functionality, and enhanced navigation using code and Shopify integrations, improving user experience and site performance.",
-        "skills": ["HTML", "CSS", "JavaScript", "Liquid", "Shopify", "Templating", "APIs"],
+        "description": "Contributed to the relaunch of 707 Street's website by implementing advanced product filters, PDP features, cart & checkout flows, Wishlist features, and enhanced navigation using code and Shopify integrations, improving user experience and site performance.",
+        "skills": [
+            {"name": "HTML", "icon": "html-icon.png"},
+            {"name": "CSS", "icon": "css-icon.png"},
+            {"name": "JavaScript", "icon": "javascript-icon.png"},
+            {"name": "Shopify", "icon": "shopify-icon.png"},
+            {"name": "Liquid", "icon": "liquid-icon.png"},
+            {"name": "Templating", "icon": "liquid-icon.png"},
+            {"name": "APIs", "icon": "apis-icon.png"}
+        ],
         "image": "/images/707-street-website-desktop.png",
         "imageAlt": "707 Street Website",
         "imageClass": "work-block-image-laptop"
@@ -30,8 +46,34 @@
         "website": "https://ctrk.klclick.com/l/01JKGZ7FTATBKMJ4C46FY64FKF_21",
         "websiteDisplay": "707 Street App",
         "description": "Independently developed and launched 707 Street's first mobile app, achieving 10,000+ downloads and 300+ 5-star reviews in three months by integrating TapCart, custom code blocks, and API connections to replicate and enhance website functionality.",
-        "skills": ["HTML", "CSS", "JavaScript", "APIs", "TapCart"],
+        "skills": [
+            {"name": "HTML", "icon": "html-icon.png"},
+            {"name": "CSS", "icon": "css-icon.png"},
+            {"name": "JavaScript", "icon": "javascript-icon.png"},
+            {"name": "Shopify", "icon": "shopify-icon.png"},
+            {"name": "TapCart", "icon": "tapcart-icon.png"},
+            {"name": "APIs", "icon": "apis-icon.png"}
+        ],
         "image": "/images/707-street-website-mobile.png",
+        "imageAlt": "707 Street App",
+        "imageClass": "work-block-image-mobile"
+    },
+    {
+        "company": "CSU LOS ANGELES",
+        "role": "Math Student-Instructor for STEP",
+        "dates": "Summer 2017, 2018 & 2019",
+        "website": "https://www.calstatela.edu/ecst/success/summer-transition-ecst-program-step",
+        "websiteDisplay": "calstatela.edu/step",
+        "description": "I taught and mentored incoming STEM freshmen in trigonometry and pre-calculus, leading workshops, developing custom learning materials, and providing academic support to enhance their college readiness for Engineering.",
+        "skills": [
+            {"name": "HTML", "icon": "html-icon.png"},
+            {"name": "CSS", "icon": "css-icon.png"},
+            {"name": "JavaScript", "icon": "javascript-icon.png"},
+            {"name": "Shopify", "icon": "shopify-icon.png"},
+            {"name": "TapCart", "icon": "tapcart-icon.png"},
+            {"name": "APIs", "icon": "apis-icon.png"}
+        ],
+        "image": "/images/csula-step.png",
         "imageAlt": "707 Street App",
         "imageClass": "work-block-image-mobile"
     }

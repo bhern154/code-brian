@@ -3,11 +3,13 @@ $(document).ready(function() {
         const $workContainer = $('.work-container'); // Add a container div in HTML to hold all work cards
 
         data.forEach(work => {
-            const skills = work.skills.map(skill => `<p>${skill}</p>`).join('');
+            const skills = work.skills.map(skill => {
+                return `<p><img src="/images/${skill.icon}" alt="" class="skill-icon"> ${skill.name}</p>`;
+            }).join('');
             
             const workCard = `
                 <div class="work-block">
-                    <p class="sub-heading">${work.company}</p>
+                    <p class="sub-heading accent-color">${work.company}</p>
                     <p class="sub-heading-thin">${work.role}</p>
                     <p class="dates">${work.dates}</p>
                     <a href="${work.website}" target="_blank" class="website-link">

@@ -1,57 +1,118 @@
-/* Import Heathergreen */
+/* Define color and text-shadow variables */
+:root {
+    --text-shadow: rgba(0, 0, 0, 0.1); /* Default text shadow color */
+    --link-color: #1d1d1f; /* Color for text in paragraphs and anchor tags */
+    --black-color: #000000; /* Black color for text */
+    --accent-color: #fa2d48;
+    --dates-color: #ff9500; /* Red color for dates */
+    --text-color: #007aff; /* Link color */
+    --hover-color: #5ac8fa; /* Hover color for links */
+}
+
+/* Import custom fonts */
 @font-face {
     font-family: 'Heathergreen';
     src: url('../fonts/Heathergreen.otf') format('opentype');
-  }
-  
-/* Import Avenir */
+}
+
 @font-face {
     font-family: 'Avenir';
     src: url('../fonts/Avenir.ttc') format('ttc');
 }
 
-/* Import Avenir Next */
 @font-face {
     font-family: 'Avenir Next';
     src: url('../fonts/Avenir\ Next.ttc') format('ttc');
 }
 
-/* Import Avenir Next Condensed */
 @font-face {
     font-family: 'Avenir Next Condensed';
     src: url('../fonts/Avenir\ Next\ Condensed.ttc') format('ttc');
 }
 
+/* Heading styles */
 .heading {
     font-family: 'Heathergreen', Arial, sans-serif;
     font-size: 110px;
     letter-spacing: 3px;
-    text-shadow: 5px 5px 0 var(--text-shadow);
+    text-shadow: 5px 5px 0 var(--text-shadow); /* Using text-shadow variable */
+    color: var(--black-color); /* Using black color variable */
 }
 
+/* Subheading styles */
 .sub-heading {
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: 800;
+    color: var(--black-color); /* Using black color variable */
 }
 
 .sub-heading-thin {
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: 300;
+    color: var(--black-color); /* Using black color variable */
 }
 
+/* Paragraph text styles */
 p {
-    /* font-family: 'Avenir Next Condensed'; */
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.4;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    color: #1d1d1f;
+    color: var(--link-color); /* Using color variable for paragraph text */
 }
 
+/* Anchor (link) styles */
 a {
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: var(--link-color); /* Using color variable for anchor text */
+}
+
+.website-link {
+    font-size: 16px;
+    color: var(--text-color); /* Using color variable for link color */
+}
+
+.dates {
+    font-size: 13px;
+    color: var(--dates-color); /* Using color variable for dates */
+}
+
+.accent-color{
+    color: var(--accent-color);
+}
+
+/* Hover effect for website link */
+.website-link:hover {
+    color: var(--hover-color); /* Using color variable for hover color */
+}
+
+/* Desktop-specific styles */
+@media screen and (min-width: 768px) {
+    
+    .heading {
+        font-size: 170px;
+        letter-spacing: 3px;
+        text-shadow: 7px 7px 0 var(--text-shadow); /* Using text-shadow variable */
+    }
+
+    .sub-heading {
+        font-size: 30px;
+    }
+
+    .sub-heading-thin {
+        font-size: 30px;
+    }
+
+    p {
+        line-height: 1.4;
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 16px;
+    }
 }

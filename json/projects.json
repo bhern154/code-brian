@@ -1,0 +1,38 @@
+[
+    {
+        "company": "HERMOSA BEAUTY",
+        "role": "Web Developer",
+        "dates": "AUG 2021 – APR 2022 & SEP 2023 - PRESENT",
+        "website": "https://hermosabeauty.com",
+        "websiteDisplay": "hermosabeauty.com",
+        "description": "Redesigned and relaunched Hermosa Beauty's website, achieving a 5X boost in customer retention through scalable web solutions and optimized UI/UX with custom web features like dynamic product grouping, advanced filtering, and seamless Wishlist integration.",
+        "skills": ["HTML", "CSS", "JavaScript", "Liquid", "Shopify", "Templating", "APIs"],
+        "image": "/images/hermosa-beauty-website-desktop.png",
+        "imageAlt": "Hermosa Beauty Website",
+        "imageClass": "project-block-image-laptop"
+    },
+    {
+        "company": "707 STREET",
+        "role": "Web Developer",
+        "dates": "APR 2022 – SEP 2023",
+        "website": "https://707street.com",
+        "websiteDisplay": "707street.com",
+        "description": "Contributed to the relaunch of 707 Street's website by implementing advanced product filters, PDP features, cart and checkout flows, Wishlist functionality, and enhanced navigation using code and Shopify integrations, improving user experience and site performance.",
+        "skills": ["HTML", "CSS", "JavaScript", "Liquid", "Shopify", "Templating", "APIs"],
+        "image": "/images/707-street-website-desktop.png",
+        "imageAlt": "707 Street Website",
+        "imageClass": "project-block-image-laptop"
+    },
+    {
+        "company": "707 STREET",
+        "role": "Mobile Developer",
+        "dates": "APR 2022 – SEP 2023",
+        "website": "https://ctrk.klclick.com/l/01JKGZ7FTATBKMJ4C46FY64FKF_21",
+        "websiteDisplay": "707 Street App",
+        "description": "Independently developed and launched 707 Street's first mobile app, achieving 10,000+ downloads and 300+ 5-star reviews in three months by integrating TapCart, custom code blocks, and API connections to replicate and enhance website functionality.",
+        "skills": ["HTML", "CSS", "JavaScript", "APIs", "TapCart"],
+        "image": "/images/707-street-website-mobile.png",
+        "imageAlt": "707 Street App",
+        "imageClass": "project-block-image-mobile"
+    }
+]
