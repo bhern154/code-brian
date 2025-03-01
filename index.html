@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/styles/global.css"> <!-- Global styles for the website -->
     <link rel="stylesheet" href="/styles/colors.css"> <!-- Color theme definitions -->
     <link rel="stylesheet" href="/styles/navbar.css"> <!-- Navbar styling -->
+    <link rel="stylesheet" href="/styles/footer.css"> <!-- Footer styling -->
 
     <!-- JAVASCRIPT LIBRARIES -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for dynamic behavior -->
@@ -24,7 +25,7 @@
 
     <!-- HERO SECTION -->
     <div class="full-width-div home-title-block">
-        <p class="heading accent-color">WEB DEVELOPER</p> <!-- Main title -->
+        <p class="intro accent-color">WEB DEVELOPER</p> <!-- Main title -->
     </div>
 
     <!-- NAME INTRODUCTION SECTION -->
@@ -33,7 +34,7 @@
     </div>
 
     <!-- ABOUT ME SECTION -->
-    <div class="home-intro-block">
+    <div class="full-width-div home-intro-block">
         <p class="introduction">
             I’m a passionate full-stack developer who enjoys creating eye-catching, easy-to-use websites and apps. 
             My focus is on making designs that look great and work even better. I’m all about writing clean, 
@@ -41,8 +42,12 @@
         </p>
     </div>
 
+    <!-- FOOTER -->
+    <div id="footer"></div> <!-- footer will be dynamically loaded by footer.js -->
+
     <!-- JAVASCRIPT FILES -->
     <script src="scripts/navbar.js"></script> <!-- Loads the navbar dynamically -->
+    <script src="scripts/footer.js"></script> <!-- Loads the footer dynamically -->
 
 </body>
 </html>

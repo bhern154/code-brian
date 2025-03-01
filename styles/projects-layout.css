@@ -1,194 +1,211 @@
-/* Define color variables */
+/* ========================= */
+/*        VARIABLES          */
+/* ========================= */
+
 :root {
-    --secondary-background-color: #f0f0f0; /* Example value for secondary background */
-    --dates-color: #bd2f2f; /* Red color for dates */
-    --text-color: #007bff; /* Link color */
-    --hover-color: #014288; /* Hover color for links */
-    --tag-background-color: #f0f0f0; /* Background color for skill tags */
-    --black-color: #000000; /* Black color for text */
+    --secondary-background-color: #f0f0f0; /* Background color */
+    --tag-background-color: #f0f0f0; /* Skill tag background */
+    --black-color: #000000; /* Black text color */
 }
 
-/* Body background color */
+/* ========================= */
+/*       GLOBAL STYLES       */
+/* ========================= */
+
 body {
     background-color: var(--secondary-background-color);
 }
 
-/* Center the heading */
+p {
+    margin: 10px 0px;
+}
+
+/* ========================= */
+/*       TYPOGRAPHY          */
+/* ========================= */
+
 .heading {
     text-align: center;
     margin: 0px;
 }
 
-/* Sub-heading styling */
 .sub-heading {
     line-height: 30px;
     margin: 0px;
 }
 
-/* Sub-heading with thinner font */
 .sub-heading-thin {
     line-height: 30px;
     margin: 0px;
 }
 
-/* Dates section styling */
 .dates {
-    font-size: 13px;
-    color: var(--dates-color); /* Using color variable for dates */
     margin: 0px;
     margin-top: 10px;
 }
 
-/* Paragraph styling */
-p {
-    margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
-}
+/* ========================= */
+/*      PROJECT BLOCKS       */
+/* ========================= */
 
-/* Project block container */
 .project-block {
     padding: 25px;
     background-color: white;
     margin: 10px;
-    /* margin-bottom: 40px; */
-    border-radius: 25px; /* Rounded corners */
-    justify-content: left; /* Aligns content to the left horizontally */
-    align-items: left; /* Aligns content to the left vertically */
-    text-align: left; /* Align text to the left */
-    overflow: hidden; /* Prevents overflow */
-    position: relative; /* Allows for positioning of child elements */
+    border-radius: 25px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    justify-content: left; /* Added to match Work CSS */
+    align-items: left; /* Added to match Work CSS */
 }
 
-/* Image for project block (laptop version) */
+/* ========================= */
+/*      IMAGE STYLING        */
+/* ========================= */
+
 .project-block-image-laptop {
-    /* height: 300px; */
     width: 115%;
-    left: -25%; /* Shift image to the left */
+    left: -25%;
     position: relative;
 }
 
-/* Image for project block (mobile version) */
 .project-block-image-mobile {
     height: 300px;
     position: relative;
-    left: 50%;  /* Move the image to the middle of the parent container */
-    transform: translateX(-50%);  /* Shift the image back by 50% of its width to perfectly center it */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-/* Skill tags container */
+/* ========================= */
+/*      SKILL TAGS           */
+/* ========================= */
+
 .skills-tags {
-    display: flex; /* Align items in a row */
-    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
-    gap: 10px; /* Space between the tags */
-    padding-bottom: 10px; /* Padding around the tag container */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
 }
 
-/* Individual skill tags */
 .skills-tags p {
-    background-color: var(--tag-background-color); /* Using color variable for tag background */
-    padding: 5px 10px;            /* Padding inside each tag */
-    border-radius: 20px;          /* Rounded edges for pill effect */
-    font-size: 10px;              /* Font size for readability */
-    font-weight: 500;             /* Slightly bold text */
-    margin: 0;                    /* Remove default margin */
-    display: inline-block;        /* Ensure tags are inline */
-    white-space: nowrap;          /* Prevent text from wrapping */
-    cursor: default;              /* Default cursor style */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--tag-background-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    display: inline-flex;
+    white-space: nowrap;
+    cursor: default;
+    transition: background-color 0.3s ease;
 }
 
-/* Website link container */
+.skill-icon {
+    height: 20px;
+    object-fit: contain;
+}
+
+/* ========================= */
+/*      LINKS & BUTTONS      */
+/* ========================= */
+
 .website-link {
     display: inline-flex;
     align-items: center;
-    font-size: 16px;
-    color: var(--text-color); /* Using color variable for link color */
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     line-height: 12px;
 }
 
-/* Hover effect for website link */
-.website-link:hover {
-    color: var(--hover-color); /* Using color variable for hover color */
-}
-
-/* Link icon styling */
 .website-link .fa-link {
-    margin-left: 5px; /* Space between text and icon */
-    font-size: 15px;  /* Icon size */
+    margin-left: 5px;
+    font-size: 15px;
 }
 
-/* Media query for desktop-specific styles */
+/* ========================= */
+/*      FADE ANIMATION       */
+/* ========================= */
+
+.fade-effect {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0.1;
+}
+
+/* ========================= */
+/*      MEDIA QUERIES        */
+/* ========================= */
+
 @media screen and (min-width: 768px) {
 
-    /* Sub-heading styling */
     .sub-heading {
         line-height: 30px; 
     }
 
-    /* Sub-heading with thinner font */
     .sub-heading-thin {
         line-height: 30px;
     }
 
-    /* Dates section styling */
     .dates {
         margin-top: 10px;
         font-size: 16px;
     }
 
-    /* Paragraph styling */
     p {
-        margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
+        margin: 10px 0px;
     }
 
-    .projects-container { 
-        display: grid;           /* Use grid layout */
-        grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
-        gap: 0px;               /* Space between columns */
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
     }
 
     .project-block {
-        /* Ensure each block takes full width of its grid cell */
         width: 100% - 10px;
     }
 
-    /* Image for project block (laptop version) */
     .project-block-image-laptop {
         padding-top: 20px;
         height: auto;
         width: 90%;
         position: relative;
-        left: 50%;  /* Move the image to the middle of the parent container */
-        transform: translateX(-50%);  /* Shift the image back by 50% of its width to perfectly center it */
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    /* Image for project block (mobile version) */
     .project-block-image-mobile {
         height: 380px;
         position: relative;
     }
 
-    /* Skill tags container */
     .skills-tags {
-        gap: 10px; /* Space between the tags */
-        padding-bottom: 10px; /* Padding around the tag container */
+        gap: 10px;
+        padding-bottom: 10px;
     }
 
-    /* Individual skill tags */
     .skills-tags p {
-        padding: 5px 10px;            /* Padding inside each tag */
-        border-radius: 20px;          /* Rounded edges for pill effect */
-        font-size: 12px;              /* Font size for readability */
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 12px;
     }
 
-    /* Website link container */
     .website-link {
         font-size: 18px;
         line-height: 12px;
     }
 
-    /* Link icon styling */
     .website-link .fa-link {
-        font-size: 15px;  /* Icon size */
+        font-size: 15px;
     }
 }

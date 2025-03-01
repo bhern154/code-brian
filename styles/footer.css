@@ -1,0 +1,48 @@
+/* Define color and text-shadow variables */
+:root {
+    --text-shadow: rgba(0, 0, 0, 0.1); /* Default text shadow color */
+    --link-color: #1d1d1f; /* Color for text in paragraphs and anchor tags */
+    --black-color: #000000; /* Black color for text */
+    --accent-color: #fa2d48;
+    --dates-color: #ff9500; /* Red color for dates */
+    --text-color: #007aff; /* Link color */
+    --hover-color: #5ac8fa; /* Hover color for links */
+}
+
+/*-------------- Footer ---------------*/
+.footer-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--accent-color);
+}
+.footer-container .footer-icons{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icon img{
+    height:40px;
+}
+.footer-icon img:hover{
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+.footer-container .footer-info{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-green);
+}
+.footer-container .footer-info p{
+    font-weight: 600;
+    color: white
+}
+/*-------------- End Footer ---------------*/

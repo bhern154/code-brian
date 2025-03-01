@@ -39,6 +39,15 @@
     color: var(--black-color); /* Using black color variable */
 }
 
+.intro {
+    font-family: 'Heathergreen', Arial, sans-serif;
+    font-size: 140px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 0 var(--text-shadow); /* Using text-shadow variable */
+    color: var(--black-color); /* Using black color variable */
+    line-height: 120px;
+}
+
 /* Subheading styles */
 .sub-heading {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -94,6 +103,12 @@ a {
 @media screen and (min-width: 768px) {
     
     .heading {
+        font-size: 170px;
+        letter-spacing: 3px;
+        text-shadow: 7px 7px 0 var(--text-shadow); /* Using text-shadow variable */
+    }
+
+    .intro {
         font-size: 170px;
         letter-spacing: 3px;
         text-shadow: 7px 7px 0 var(--text-shadow); /* Using text-shadow variable */

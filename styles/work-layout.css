@@ -1,3 +1,7 @@
+/* ========================= */
+/*        VARIABLES          */
+/* ========================= */
+
 /* Define color variables */
 :root {
     --secondary-background-color: #f0f0f0; /* Example value for secondary background */
@@ -5,24 +9,37 @@
     --black-color: #000000; /* Black color for text */
 }
 
+/* ========================= */
+/*       GLOBAL STYLES       */
+/* ========================= */
+
 /* Body background color */
 body {
     background-color: var(--secondary-background-color);
 }
 
-/* Center the heading */
+/* General paragraph styling */
+p {
+    margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
+}
+
+/* ========================= */
+/*       TYPOGRAPHY          */
+/* ========================= */
+
+/* Main heading */
 .heading {
     text-align: center;
     margin: 0px;
 }
 
-/* Sub-heading styling */
+/* Sub-heading (bold) */
 .sub-heading {
     line-height: 30px;
     margin: 0px;
 }
 
-/* Sub-heading with thinner font */
+/* Sub-heading (thin) */
 .sub-heading-thin {
     line-height: 30px;
     margin: 0px;
@@ -34,17 +51,15 @@ body {
     margin-top: 10px;
 }
 
-/* Paragraph styling */
-p {
-    margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
-}
+/* ========================= */
+/*     WORK BLOCK STYLES     */
+/* ========================= */
 
 /* Work block container */
 .work-block {
     padding: 25px;
     background-color: white;
     margin: 10px;
-    /* margin-bottom: 40px; */
     border-radius: 25px; /* Rounded corners */
     justify-content: left; /* Aligns content to the left horizontally */
     align-items: left; /* Aligns content to the left vertically */
@@ -53,9 +68,12 @@ p {
     position: relative; /* Allows for positioning of child elements */
 }
 
+/* ========================= */
+/*      IMAGE STYLING        */
+/* ========================= */
+
 /* Image for work block (laptop version) */
 .work-block-image-laptop {
-    /* height: 300px; */
     width: 115%;
     left: -25%; /* Shift image to the left */
     position: relative;
@@ -68,6 +86,10 @@ p {
     left: 50%;  /* Move the image to the middle of the parent container */
     transform: translateX(-50%);  /* Shift the image back by 50% of its width to perfectly center it */
 }
+
+/* ========================= */
+/*      SKILL TAGS           */
+/* ========================= */
 
 /* Skill tags container */
 .skills-tags {
@@ -100,6 +122,10 @@ p {
     object-fit: contain; /* Ensure the icon scales properly */
 }
 
+/* ========================= */
+/*      LINKS & BUTTONS      */
+/* ========================= */
+
 /* Website link container */
 .website-link {
     display: inline-flex;
@@ -114,7 +140,33 @@ p {
     font-size: 15px;  /* Icon size */
 }
 
-/* Media query for desktop-specific styles */
+/* ========================= */
+/*      FADE ANIMATION       */
+/* ========================= */
+
+/* Initially hidden and moved down */
+.fade-effect {
+    opacity: 0;
+    /* transform: translateY(80px); Moves down before appearing */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When 50% is in view, fade in */
+.fade-in {
+    opacity: 1;
+    /* transform: translateY(0); */
+}
+
+/* When less than 50% is visible, fade out */
+.fade-out {
+    opacity: 0.1;
+    /* transform: translateY(80px); */
+}
+
+/* ========================= */
+/*      MEDIA QUERIES        */
+/* ========================= */
+
 @media screen and (min-width: 768px) {
 
     /* Sub-heading styling */
@@ -138,14 +190,15 @@ p {
         margin: 10px 0px 10px 0px; /* Vertical margin for spacing */
     }
 
+    /* Work experience container */
     .work-container { 
-        display: grid;           /* Use grid layout */
+        display: grid; /* Use grid layout */
         grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
-        gap: 0px;               /* Space between columns */
+        gap: 0px; /* Space between columns */
     }
 
+    /* Work block width */
     .work-block {
-        /* Ensure each block takes full width of its grid cell */
         width: 100% - 10px;
     }
 
@@ -173,9 +226,9 @@ p {
 
     /* Individual skill tags */
     .skills-tags p {
-        padding: 5px 10px;            /* Padding inside each tag */
-        border-radius: 20px;          /* Rounded edges for pill effect */
-        font-size: 12px;              /* Font size for readability */
+        padding: 5px 10px; /* Padding inside each tag */
+        border-radius: 20px; /* Rounded edges for pill effect */
+        font-size: 12px; /* Font size for readability */
     }
 
     /* Website link container */

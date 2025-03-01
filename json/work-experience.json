@@ -66,15 +66,13 @@
         "websiteDisplay": "calstatela.edu/step",
         "description": "I taught and mentored incoming STEM freshmen in trigonometry and pre-calculus, leading workshops, developing custom learning materials, and providing academic support to enhance their college readiness for Engineering.",
         "skills": [
-            {"name": "HTML", "icon": "html-icon.png"},
-            {"name": "CSS", "icon": "css-icon.png"},
-            {"name": "JavaScript", "icon": "javascript-icon.png"},
-            {"name": "Shopify", "icon": "shopify-icon.png"},
-            {"name": "TapCart", "icon": "tapcart-icon.png"},
-            {"name": "APIs", "icon": "apis-icon.png"}
+            {"name": "Algebra", "icon": "math-icon.png"},
+            {"name": "Trigonometry", "icon": "math-icon.png"},
+            {"name": "Pre-Calculus", "icon": "math-icon.png"},
+            {"name": "Calculus", "icon": "math-icon.png"}
         ],
         "image": "/images/csula-step.png",
-        "imageAlt": "707 Street App",
+        "imageAlt": "CSULA STEP",
         "imageClass": "work-block-image-mobile"
     }
 ]

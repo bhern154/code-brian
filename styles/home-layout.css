@@ -38,20 +38,17 @@ body {
 
 /* Section Heights & Backgrounds */
 .home-title-block {
-    height: 40vh; /* Set height for the div */
+    max-height: 40vh; /* Set height for the div */
     background-color: white;
 }
 
 .home-name-block {
-    height: 20vh; /* Set height for the div */
+    min-height: 20vh; /* Set height for the div */
     background: linear-gradient(to bottom, white 50%, var(--secondary-background-color) 50%);
 }
 
-.home-introduction-block {
-    height: 40vh; /* Set height for the div */
-}
-
 .home-intro-block {
+    min-height: 40vh; /* Set height for the div */
     padding: 30px;
 }
 

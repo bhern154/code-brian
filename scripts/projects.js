@@ -1,15 +1,19 @@
 $(document).ready(function() {
     // Fetch JSON data for projects
     $.getJSON('/json/projects.json', function(data) {
-        const $projectsContainer = $('.projects-container'); // Container to hold all project cards
+        const $projectsContainer = $('.projects-container'); // Select the container for project cards
 
-        // Loop through each project and create a project card
+        // Loop through each project and generate its card
         data.forEach(project => {
-            const skills = project.skills.map(skill => `<p>${skill}</p>`).join('');
+            // Generate skill tags with icons dynamically
+            const skills = project.skills.map(skill => {
+                return `<p><img src="/images/${skill.icon}" alt="" class="skill-icon"> ${skill.name}</p>`;
+            }).join('');
             
-            const projectCard = `
-                <div class="project-block">
-                    <p class="sub-heading">${project.company}</p>
+            // Create the HTML structure for a project card
+            const projectCard = $(`
+                <div class="project-block fade-effect">
+                    <p class="sub-heading accent-color">${project.company}</p>
                     <p class="sub-heading-thin">${project.role}</p>
                     <p class="dates">${project.dates}</p>
                     <a href="${project.website}" target="_blank" class="website-link">
@@ -19,12 +23,33 @@ $(document).ready(function() {
                     <div class="skills-tags">${skills}</div>
                     <img src="${project.image}" alt="${project.imageAlt}" class="${project.imageClass}">
                 </div>
-            `;
+            `);
 
-            // Append the project card to the container
+            // Append the generated project card to the container
             $projectsContainer.append(projectCard);
         });
+
+        // Initialize Intersection Observer for fade-in/out effect
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                // Fade in when 50% or more of the card is visible
+                if (entry.intersectionRatio >= 0.5) {
+                    $(entry.target).addClass('fade-in').removeClass('fade-out');
+                } 
+                // Fade out when less than 50% of the card is visible
+                else {
+                    $(entry.target).addClass('fade-out').removeClass('fade-in');
+                }
+            });
+        }, { threshold: [0.5] }); // 50% visibility threshold
+
+        // Observe each project block for visibility changes
+        $('.project-block').each(function() {
+            observer.observe(this);
+        });
+
     }).fail(function(jqXHR, textStatus, errorThrown) {
+        // Log an error message if JSON data fails to load
         console.error('Error loading projects data:', textStatus, errorThrown);
     });
 });
