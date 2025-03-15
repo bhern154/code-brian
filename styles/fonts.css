@@ -63,6 +63,13 @@
     color: var(--black-color); /* Using black color variable */
 }
 
+.sub-heading-medium {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black-color); /* Using black color variable */
+}
+
 /* Paragraph text styles */
 p {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;

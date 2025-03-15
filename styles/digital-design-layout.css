@@ -1,0 +1,113 @@
+body {
+    background-color: var(--secondary-background-color);
+}
+
+.heading {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.accent-color-2 {
+    color: var(--accent-color-2);
+}
+
+.accent-color-3 {
+    color: var(--accent-color-3);
+}
+
+.accent-color-4 {
+    color: var(--accent-color-4);
+}
+
+.sub-heading-thin {
+    font-size: 18px;
+}
+
+.gallery-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery {
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+.gallery-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gallery-subtitle{
+    font-size: 24px;
+}
+
+/* Updated gallery slider to show a partial preview of adjacent images */
+.gallery-slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 5px; /* Space between images */
+}
+
+.slider-item {
+    flex: 0 0 auto; /* Allow it to take up the correct width */
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item:first-child {
+    padding-left: 5vw; /* Add padding to the left of the first image */
+}
+
+/* Make images have the same width but maintain aspect ratio */
+.slider-item img {
+    width: 100%; /* Set the width to fill the container */
+    height: auto; /* Let the height adjust according to the aspect ratio */
+    object-fit: contain; /* Optional: ensure image is contained within the wrapper */
+}
+
+/* Navigation Buttons */
+.gallery-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+
+@media screen and (min-width: 768px) {
+
+    .gallery-container{
+        max-width: 1400px; /* Limit the width on desktop */
+        width: 100%; /* Ensure the body is still full width, limited by max-width */
+        margin: 0 auto; /* Center the body horizontally */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .slider-item:first-child {
+        padding-left: 45px; /* Add padding to the left of the first image */
+    }
+
+}

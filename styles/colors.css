@@ -2,4 +2,14 @@
     --primary-background-color: #ffffff;
     --secondary-background-color: #f1f1f1;
     --text-shadow: #d9d9d9;
+    --text-shadow: rgba(0, 0, 0, 0.1); /* Default text shadow color */
+    --link-color: #1d1d1f; /* Color for text in paragraphs and anchor tags */
+    --black-color: #000000; /* Black color for text */
+    --accent-color: #fa2d48;
+    --accent-color-2: #d9122c;
+    --accent-color-3: #5856d6;
+    --accent-color-4: #5ac8fa;
+    --dates-color: #ff9500; /* Red color for dates */
+    --text-color: #007aff; /* Link color */
+    --hover-color: #5ac8fa; /* Hover color for links */
 }

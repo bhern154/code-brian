@@ -169,6 +169,13 @@ p {
 
 @media screen and (min-width: 768px) {
 
+    .work-container{
+        max-width: 1400px; /* Limit the width on desktop */
+        width: 100%; /* Ensure the body is still full width, limited by max-width */
+        margin: 0 auto; /* Center the body horizontally */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
     /* Sub-heading styling */
     .sub-heading {
         line-height: 30px; 
