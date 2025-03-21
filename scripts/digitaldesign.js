@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     let imgElement = document.createElement("img");
                     imgElement.src = item.image;
                     imgElement.alt = item.description;
+                    imgElement.loading = "lazy";  // Add this line for lazy loading
 
                     imgWrapper.appendChild(imgElement);
                     track.appendChild(imgWrapper);

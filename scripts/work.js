@@ -6,7 +6,7 @@ $(document).ready(function() {
         data.forEach(work => {
             // Generate skill tags with icons dynamically
             const skills = work.skills.map(skill => {
-                return `<p><img src="/images/${skill.icon}" alt="" class="skill-icon"> ${skill.name}</p>`;
+                return `<p><img src="${skill.icon}" alt="" class="skill-icon"> ${skill.name}</p>`;
             }).join('');
             
             // Create the HTML structure for a work block

@@ -5,17 +5,30 @@
         "gallery-description": "This is a collection of email and social media marketing assets I created for 707 Street's Exclusive Loungefly backpacks.",
         "images": [
             {
-                "image": "/images/707StreetSocialAssets/01stitch.PNG",
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Teaser+Social.png",
                 "description": "Loungefly Exclusive Email Banner"
             },
             {
-                "image": "/images/707StreetSocialAssets/Drop-1.png",
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Reveal+Social.jpg",
                 "description": "Instagram Story Promotion"
             },
             {
-                "image": "/images/707StreetSocialAssets/01stitch.png",
-                "description": "Facebook Ad Design"
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Teaser.png",
+                "description": "Loungefly Exclusive Email Banner"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Reveal.jpg",
+                "description": "Instagram Story Promotion"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Teaser.png",
+                "description": "Loungefly Exclusive Email Banner"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Reveal.jpg",
+                "description": "Instagram Story Promotion"
             }
+            
         ]
     },
     {
