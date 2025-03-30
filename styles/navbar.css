@@ -80,3 +80,7 @@ nav.collapsed a {
 nav.collapsed .toggle-btn::before {
     content: '←'; /* Change arrow direction to indicate expansion */
 }
+
+.active-page {
+    color: var(--accent-color);  /* Change this to your desired color */
+}

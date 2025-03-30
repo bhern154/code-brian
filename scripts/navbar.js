@@ -8,6 +8,7 @@ $(document).ready(function() {
         } else {
             console.log('Navbar HTML loaded successfully');
             initializeNavbar();
+            setActiveNavbarItem();
         }
     });
 });
@@ -19,5 +20,16 @@ function initializeNavbar() {
     $('.toggle-btn').on('click', function() {
         $('nav').toggleClass('collapsed');  // Toggle visibility of links
         $(this).toggleClass('active');      // Change the arrow direction
+    });
+}
+
+function setActiveNavbarItem() {
+    var currentPage = window.location.pathname; // Get the full path of the current URL
+    $('.navbar-wrapper nav a').each(function() {
+        var link = $(this).attr('href'); // Get the href attribute of each link
+        // Compare the current page URL with the link in the navbar
+        if (currentPage === link || currentPage.endsWith(link)) {
+            $(this).addClass('active-page');  // Add class to active item
+        }
     });
 }
