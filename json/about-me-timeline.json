@@ -1,0 +1,52 @@
+[
+    {
+        "date": "September 2023 - Present",
+        "title": "Web Developer - Hermosa Beauty Corp",
+        "description": "Spearheaded the complete relaunch of hermosabeauty.com, achieving a 200% increase in sales and a 500% boost in customer return rate. Used Liquid, HTML, CSS, and JavaScript to enhance the customer experience through custom modifications while implementing advanced practices like page templating and strategic file structuring to optimize both functionality and scalability."
+    },
+    {
+        "date": "February 2023 - November 2024",
+        "title": "Springboard Full-Stack Engineering Bootcamp",
+        "description": "Completed comprehensive training in full-stack development methodologies, expanding technical skills across multiple programming languages, frameworks, and development practices while building real-world applications and strengthening problem-solving abilities."
+    },
+    {
+        "date": "April 2022 - September 2023",
+        "title": "Web Developer - 707 Street LLC",
+        "description": "Independently developed and launched 707 Street's first mobile application, achieving 10,000+ downloads and 300+ 5-star reviews within three months. Led key aspects of the website relaunch, implementing product filters, checkout flows, and enhanced navigation. Simultaneously managed digital marketing efforts, designing targeted emails that achieved 45% open rates and 80% click-through rates."
+    },
+    {
+        "date": "August 2021 - April 2022",
+        "title": "Web Developer - Hermosa Beauty Corp",
+        "description": "Gained initial experience in e-commerce development, working with web technologies to enhance functionality and user experience while learning to balance technical requirements with brand aesthetics and business goals."
+    },
+    {
+        "date": "Fall 2016 - Spring 2021",
+        "title": "Bachelor of Science in Computer Science - California State University, Los Angeles",
+        "description": "Completed computer science degree with Cum Laude honors and a 3.61 GPA. Consistently achieved academic excellence, appearing on the Dean's List multiple semesters, while balancing coursework with numerous extracurricular activities and leadership roles that enhanced both technical and soft skills."
+    },
+    {
+        "date": "Fall 2020 - Spring 2021",
+        "title": "Project Team Lead - AT&T/CSULA Network Video KPIs Emulator",
+        "description": "Managed a team of 8 CS students to create a web-based Network Video KPI Emulator for AT&T that created a fully virtual environment to test video streaming performance. Served as QA Lead ensuring cross-platform functionality and data accuracy while preparing weekly plans to meet client requirements and deadlines."
+    },
+    {
+        "date": "Summer 2017, 2018, 2019",
+        "title": "Math Student-Instructor Lead - CSULA Engineering STEP Summer Program",
+        "description": "Instructed and mentored incoming freshmen in trigonometry and pre-calculus, leading workshops for 35-40 students. Created customized learning materials and fostered a supportive environment by providing personalized feedback and connecting students with campus resources, helping build their academic readiness for STEM courses."
+    },
+    {
+        "date": "Fall 2018 - Spring 2019",
+        "title": "Project Manager - ACM/CSULA",
+        "description": "Led two educational workshop series: one teaching students to create and host portfolio websites from scratch using HTML, CSS, and JavaScript in Spring 2019; and another guiding students through assembling and programming Arduino cars using C++ in Fall 2018, demonstrating both technical and leadership abilities."
+    },
+    {
+        "date": "Fall 2017 - Spring 2018",
+        "title": "Team Leader - SHPE/CSULA",
+        "description": "Led the outreach committee and served as Freshman Representative for the Society of Hispanic Professional Engineers chapter, designing creative activities that doubled club attendance. Actively promoted club events and worked to improve member engagement in workshops, demonstrating event planning and community building skills."
+    },
+    {
+        "date": "Fall 2016 - Spring 2018",
+        "title": "Team Mentor - FRC/ELAC First Robotics Competition",
+        "description": "Supported a high school robotics team by providing guidance in mechanical, electrical, and programming skills for the annual international First Robotics Competition. Helped students develop practical engineering abilities while fostering teamwork and problem-solving in a competitive environment."
+    }
+]

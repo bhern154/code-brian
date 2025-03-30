@@ -5,6 +5,8 @@
     --text-shadow: rgba(0, 0, 0, 0.1); /* Default text shadow color */
     --link-color: #1d1d1f; /* Color for text in paragraphs and anchor tags */
     --black-color: #000000; /* Black color for text */
+    --white-color: #ffffff; /* Black color for text */
+    --yellow-color: #ffcc00;
     --accent-color: #fa2d48;
     --accent-color-2: #d9122c;
     --accent-color-3: #5856d6;

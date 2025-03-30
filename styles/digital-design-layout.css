@@ -33,7 +33,7 @@ body {
     margin-bottom: 40px;
     text-align: center;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 0px;
     padding-bottom: 25px;
 }
 
@@ -108,6 +108,10 @@ body {
 
     .slider-item:first-child {
         padding-left: 45px; /* Add padding to the left of the first image */
+    }
+
+    .gallery{
+        border-radius: 25px;
     }
 
 }
