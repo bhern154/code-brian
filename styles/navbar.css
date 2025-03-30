@@ -58,7 +58,7 @@ nav.collapsed a {
     align-items: center; /* Center vertically */
     position: absolute; /* Absolute position within the nav */
     right: 0px; /* Align button to the right edge */
-    top: -2px; /* Move button slightly upward for better alignment */
+    /* top: -2px; Move button slightly upward for better alignment */
     border: none; /* Remove button border */
     outline: none; /* Remove focus outline */
     height: 43px; /* Set button height */
