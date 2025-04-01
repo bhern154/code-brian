@@ -36,12 +36,22 @@ $(document).ready(function() {
         $(window).on("scroll", updateTimelineVisibility);
     }
 
+    let scrollTimeout;
+
+    $(window).on("scroll", function() {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(updateTimelineVisibility, 50); // Adjust delay as needed
+    });
+
     function updateTimelineVisibility() {
         $(".timeline-item").each(function() {
             const $item = $(this);
             const rect = $item[0].getBoundingClientRect();
-            const isVisible = rect.top >= 0 && rect.bottom <= $(window).height();
-
+            const windowHeight = $(window).height();
+            
+            // Instead of strict visibility, use a threshold (e.g., item must be at least 40% visible)
+            const isVisible = rect.top < windowHeight * 0.6 && rect.bottom > windowHeight * 0.4;
+            
             if (isVisible) {
                 $item.addClass("active");
             } else {

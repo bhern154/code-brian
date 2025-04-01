@@ -32,12 +32,30 @@ body {
     font-size: 18px;
 }
 
+.photo-container {
+    width: 100%;
+    margin: 0 auto;  /* Center the div horizontally */
+    text-align: center; /* Center text inside the div */
+}
+
+.photo-container img {
+    width: 350px;  /* Set image width */
+    display: block;
+    margin: 0 auto;  /* Center image */
+}
+
+.introduction {
+    width: 100%;
+    line-height: 1.2;
+    /* padding: 15px 0; */
+}
+
 .intro-block {
     padding: 30px;
     border-radius: 0px;
     background-color: white;
     margin: 0 auto; /* Center alignment */
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .paragraph {
@@ -45,6 +63,15 @@ body {
     font-size: 14px;
     font-weight: 800;
     color: #1d1d1f;
+}
+
+.divider {
+    /* width: 90%; */
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color); /* Adjust as needed */
+    margin-bottom: 45px; /* Add space above and below */
+    border: none;
 }
 
 /* TIMELINE CONTENT START */
@@ -114,6 +141,26 @@ body {
 
 
 @media screen and (min-width: 768px) {
+
+    .sub-heading-thin {
+        font-size: 25px;
+    }
+    
+    .sub-heading {
+        font-size: 35px;
+    }
+    
+    p {
+        font-size: 30px;
+    }
+
+    .photo-container img {
+        width: 350px; 
+    }
+
+    .introduction {
+        line-height: 1.5;
+    }
 
     .paragraph {
         line-height: 1.4;
