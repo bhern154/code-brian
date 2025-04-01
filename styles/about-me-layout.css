@@ -39,7 +39,7 @@ body {
 }
 
 .photo-container img {
-    width: 350px;  /* Set image width */
+    width: 100%;  /* Set image width */
     display: block;
     margin: 0 auto;  /* Center image */
 }
@@ -47,7 +47,6 @@ body {
 .introduction {
     width: 100%;
     line-height: 1.2;
-    /* padding: 15px 0; */
 }
 
 .intro-block {
