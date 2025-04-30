@@ -20,6 +20,26 @@
         "imageClass": "work-block-image-laptop"
     },
     {
+        "company": "JIA PERSONAL CARE",
+        "role": "Web Developer",
+        "dates": "JAN 2024 - PRESENT",
+        "website": "https://jiapersonalcare.com",
+        "websiteDisplay": "jiapersonalcare.com",
+        "description": "Single-handedly developed and launched Jia Personal Care's website, (A sister brand of Hermosa Beauty Corp), managing all aspects from logo development to final website deployment. I also created the digital design for the entire product catalog and the digital photos used in the website.",
+        "skills": [
+            {"name": "HTML", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/html-icon.png"},
+            {"name": "CSS", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/css-icon.png"},
+            {"name": "JavaScript", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/javascript-icon.png"},
+            {"name": "Shopify", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/shopify-icon.png"},
+            {"name": "Liquid", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/liquid-icon.png"},
+            {"name": "Templating", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/liquid-icon.png"},
+            {"name": "APIs", "icon": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/apis-icon.png"}
+        ],
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Work_Experience_%26_Projects_Logos/Jia-Personal-Care-Banner-Laptop.png",
+        "imageAlt": "Jia Personal Care Website",
+        "imageClass": "work-block-image-laptop"
+    },
+    {
         "company": "707 STREET",
         "role": "Web Developer",
         "dates": "APR 2022 – SEP 2023",
