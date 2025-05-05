@@ -30,20 +30,5 @@
             }
             
         ]
-    },
-    {
-        "gallery-title": "Hermosa Beauty",
-        "gallery-subtitle": "Social Media & Email Marketing Assets",
-        "gallery-description": "Creative digital content for beauty and skincare campaigns.",
-        "images": [
-            {
-                "image": "images/hermosa1.jpg",
-                "description": "Skincare Sale Ad"
-            },
-            {
-                "image": "images/hermosa2.jpg",
-                "description": "Haircare Promo Banner"
-            }
-        ]
     }
 ]
