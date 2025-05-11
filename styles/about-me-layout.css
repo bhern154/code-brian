@@ -73,6 +73,73 @@ body {
     border: none;
 }
 
+/* GET IN TOUCH START */
+
+.get-in-touch-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* gap: 10px; */
+    justify-content: space-between;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+  }
+  
+  .get-in-touch-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1 1 100%; /* Mobile: stack vertically */
+    padding-left: 60px;
+  }
+  
+  /* Icon styling */
+  .get-in-touch-item-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .get-in-touch-item-text{
+    color: white;
+    font-size: 25px;
+  }
+
+  .get-in-touch-header{
+    font-family: 'Heathergreen', Arial, sans-serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 0 var(--text-shadow); /* Using text-shadow variable */
+    color: var(--white-color); /* Using black color variable */
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  
+  /* Desktop layout: 3 in a row */
+  @media (min-width: 768px) {
+    .get-in-touch-item {
+        padding-left: 30px;
+      flex: 1 1 calc(33.33% - 90px);
+    }
+    .get-in-touch-item-text{
+    font-size: 20px;
+    }
+    .get-in-touch-item-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .get-in-touch-container {
+        row-gap: 10px;
+        column-gap: 30px;
+    }
+  }
+
+  /* GET IN TOUCH END */
+
+
 /* TIMELINE CONTENT START */
 
 .timeline-container {
