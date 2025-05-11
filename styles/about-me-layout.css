@@ -80,7 +80,6 @@ body {
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
-    /* gap: 10px; */
     justify-content: space-between;
     background-color: var(--accent-color);
     border-radius: 20px;
@@ -91,7 +90,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     flex: 1 1 100%; /* Mobile: stack vertically */
-    padding-left: 60px;
+    padding-left: 30px;
   }
   
   /* Icon styling */
@@ -102,7 +101,7 @@ body {
 
   .get-in-touch-item-text{
     color: white;
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .get-in-touch-header{
