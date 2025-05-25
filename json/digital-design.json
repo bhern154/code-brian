@@ -5,30 +5,137 @@
         "gallery-description": "This is a collection of email and social media marketing assets I created for 707 Street's Exclusive Loungefly backpacks.",
         "images": [
             {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Teaser+Social.png",
-                "description": "Loungefly Exclusive Email Banner"
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Back+To+The+Future+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
             },
             {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Reveal+Social.jpg",
-                "description": "Instagram Story Promotion"
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Hercules+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
             },
             {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Teaser.png",
-                "description": "Loungefly Exclusive Email Banner"
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Scooby-Snacks+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
             },
             {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Reveal.jpg",
-                "description": "Instagram Story Promotion"
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pikachu+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Harry+Potter+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Rugrats+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/War+Machine+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pixar+Flik+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Ellie+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Carl+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Marvel+CarnageDrop.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Teaser.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
             },
             {
                 "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Teaser.png",
-                "description": "Loungefly Exclusive Email Banner"
+                "description": "Loungefly Exclusive Advertisement"
             },
             {
                 "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Reveal.jpg",
-                "description": "Instagram Story Promotion"
-            }
-            
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Reveal.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Teaser+Social.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Reveal+Social.jpg",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Teaser.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Oliver+&+Company+Revealpng.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnia+Mouse+Strawberry+Macaron+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+Sakura+Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            },
+            {
+                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+The+Sweetheart Reveal.png",
+                "description": "Loungefly Exclusive Advertisement"
+            }   
         ]
     }
 ]

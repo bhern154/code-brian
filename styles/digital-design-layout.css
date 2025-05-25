@@ -110,6 +110,10 @@ body {
         padding-left: 45px; /* Add padding to the left of the first image */
     }
 
+    .slider-item img {
+        width: 80%;
+    }
+
     .gallery{
         border-radius: 25px;
     }
