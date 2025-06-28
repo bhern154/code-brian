@@ -9,7 +9,7 @@
     background-color: black;
     padding: 0px 2px;
     border-radius: 35px;
-    min-height: 43px;
+    min-height: 44px;
     transition: all 0.3s ease;
     z-index: 1000;
     transform-origin: center center;
@@ -69,8 +69,6 @@ nav.collapsed a {
 /* TOGGLE BUTTON */
 .toggle-btn {
     background-color: rgba(0, 0, 0, 0);
-    font-size: 24px; /* base font size (affects cursor and fallback) */
-    color: white;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -79,33 +77,26 @@ nav.collapsed a {
     right: 0px;
     border: none;
     outline: none;
-    height: 44px; /* consistent height */
-    width: 40px;  /* consistent width */
+    height: 44px;
+    width: 40px;
+    padding: 0;
+    padding-right: 10px;
 }
 
 /* Keep transparent background on active */
 .toggle-btn.active {
     background-color: transparent;
+    padding: 0;
 }
 
-/* TOGGLE ICON STATES */
-.toggle-btn::before {
-    content: '+';
-    font-size: 35px;
-    color: green;
-    line-height: 44px; /* match button height */
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    vertical-align: middle;
-}
-
-/* When nav is expanded, show X */
-nav:not(.collapsed) .toggle-btn::before {
-    content: '×';
-    color: var(--accent-color);
+/* Toggle button icon image */
+.toggle-btn img {
+    width: 24px;      /* Adjust size as needed */
+    height: 24px;
+    pointer-events: none;
+    user-select: none;
+    display: block;
+    margin: auto;
 }
 
 /* ANIMATION: BOUNCE SHRINK WHEN CLOSING */

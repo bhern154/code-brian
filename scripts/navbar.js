@@ -13,7 +13,6 @@ $(document).ready(function() {
     });
 });
 
-// Initialize navbar functionality
 function initializeNavbar() {
     console.log('Initializing navbar');
 
@@ -25,6 +24,13 @@ function initializeNavbar() {
         $nav.toggleClass('collapsed');
         $(this).toggleClass('active');
 
+        // Swap the toggle button icon
+        const $icon = $(this).find('img');
+        if (!$icon.length) {
+            // If no img inside toggle button, create one
+            $(this).html('<img src="/icons/open.png" alt="Toggle open icon">');
+        }
+
         if (!isCollapsed) {
             // COLLAPSING
             $wrapper.addClass('collapsed');
@@ -33,6 +39,10 @@ function initializeNavbar() {
             setTimeout(() => {
                 $wrapper.removeClass('animate-close');
             }, 300); // match duration of bounce-shrink
+
+            // Change icon to open (collapsed state means menu is closed, so show "open" icon)
+            $(this).find('img').attr('src', '/icons/open.png');
+
         } else {
             // EXPANDING
             $wrapper.removeClass('collapsed');
@@ -41,6 +51,9 @@ function initializeNavbar() {
             setTimeout(() => {
                 $wrapper.removeClass('animate-open');
             }, 300); // match duration of expand-smooth
+
+            // Change icon to close (expanded state means menu open, so show "close" icon)
+            $(this).find('img').attr('src', '/icons/close.png');
         }
     });
 }
