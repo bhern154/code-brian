@@ -47,8 +47,12 @@ function initializeNavbar() {
 
 
 function setActiveNavbarItem() {
-    const currentPage = window.location.pathname;
-    let $prevActive = $('.navbar-wrapper nav a.active-page .nav-icon');
+    let currentPage = window.location.pathname;
+
+    // Treat root '/' as '/index.html' for matching
+    if (currentPage === '/') {
+        currentPage = '/index.html';
+    }
 
     $('.navbar-wrapper nav a').each(function () {
         const link = $(this).attr('href');
@@ -57,7 +61,7 @@ function setActiveNavbarItem() {
 
         if (isActive) {
             if (!$(this).hasClass('active-page')) {
-                // This is the NEW active item, fade icon change
+                // New active item, fade icon change
                 $icon.addClass('fade');
                 setTimeout(() => {
                     $icon.attr('src', $icon.data('icon-active'));
@@ -67,7 +71,7 @@ function setActiveNavbarItem() {
             $(this).addClass('active-page');
         } else {
             if ($(this).hasClass('active-page')) {
-                // This was active but now not, fade back to outline icon
+                // Was active but now not, fade back to outline icon
                 $icon.addClass('fade');
                 setTimeout(() => {
                     $icon.attr('src', $icon.data('icon'));
