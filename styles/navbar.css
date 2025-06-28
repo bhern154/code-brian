@@ -69,7 +69,7 @@ nav.collapsed a {
 /* TOGGLE BUTTON */
 .toggle-btn {
     background-color: rgba(0, 0, 0, 0);
-    font-size: 24px;
+    font-size: 24px; /* base font size (affects cursor and fallback) */
     color: white;
     cursor: pointer;
     display: flex;
@@ -79,12 +79,13 @@ nav.collapsed a {
     right: 0px;
     border: none;
     outline: none;
-    height: 44px;
-    width: 40px;
+    height: 44px; /* consistent height */
+    width: 40px;  /* consistent width */
 }
 
+/* Keep transparent background on active */
 .toggle-btn.active {
-    background-color: none;
+    background-color: transparent;
 }
 
 /* TOGGLE ICON STATES */
@@ -92,8 +93,16 @@ nav.collapsed a {
     content: '+';
     font-size: 35px;
     color: green;
+    line-height: 44px; /* match button height */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
 }
 
+/* When nav is expanded, show X */
 nav:not(.collapsed) .toggle-btn::before {
     content: '×';
     color: var(--accent-color);
