@@ -1,86 +1,137 @@
-/* navbar.css */
-
-/* Add a wrapper around the nav to align it to the right */
+/* NAVBAR WRAPPER */
 .navbar-wrapper {
-    position: fixed; /* Keep it fixed at the bottom of the viewport */
-    bottom: 20px; /* Set distance from the bottom of the screen */
-    right: 20px; /* Align the navbar to the right */
-    width: fit-content; /* Ensure wrapper only takes necessary width */
-    max-width: 95vw; /* Limit maximum width to 80% of the viewport */
-    background-color: black; /* Set background color */
-    padding: 0px 10px 1px 10px; /* Add padding for spacing and styling */
-    border-radius: 25px; /* Round the corners for a smoother look */
-    min-height: 43px; /* Maintain minimum height for consistent appearance */
-    transition: all 0.3s ease; /* Smooth transition for state changes */
-    z-index: 1000; /* Ensure the navbar stays above other elements */
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    max-width: 95vw;
+    background-color: black;
+    padding: 0px 2px;
+    border-radius: 35px;
+    min-height: 43px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    transform-origin: center center;
 }
 
-/* Ensure nav items are aligned vertically */
+/* NAVBAR CONTAINER */
 nav {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Vertically center nav items */
-    justify-content: flex-start; /* Align items to the left */
-    width: max-content; /* Allow content to determine width */
-    position: relative; /* Position relative for child elements */
-    padding-right: 40px; /* Leave space for the toggle button */
-    min-height: 43px; /* Match the height of navbar-wrapper */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+    position: relative;
+    padding-right: 40px;
+    min-height: 43px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
 }
 
-/* Style the links */
+/* NAV ITEMS */
 nav a {
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* Set text color */
-    margin: 0 10px; /* Add horizontal spacing between links */
-    padding: 10px 0; /* Add vertical padding for better clickability */
-    display: flex; /* Use flexbox for better alignment */
-    align-items: center; /* Ensure text is vertically centered */
-    height: 100%; /* Make sure links take up full navbar height */
-    font-family: 'Avenir Next Condensed'; /* Set custom font */
-    font-size: 14px; /* Adjust font size */
-    font-style: normal; /* Medium font weight */
-    font-weight: 400; /* Set font weight */
-    text-align: center; /* Center text */
+    text-decoration: none;
+    color: white;
+    margin: 0 6px;
+    padding: 10px 5px;
+    width: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* When the nav is collapsed, hide only the links */
+/* ICON STYLE */
+.nav-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-icon {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav-icon.fade {
+    opacity: 0;
+}
+
+/* COLLAPSED STATE */
 nav.collapsed a {
-    display: none; /* Hide the <a> elements when collapsed */
+    display: none;
 }
 
-/* Style the toggle button */
+/* TOGGLE BUTTON */
 .toggle-btn {
-    background-color: rgba(0, 0, 0, 0); /* Set transparent background */
-    font-size: 24px; /* Define arrow size */
-    color: white; /* Set arrow color */
-    cursor: pointer; /* Show pointer cursor on hover */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    position: absolute; /* Absolute position within the nav */
-    right: 0px; /* Align button to the right edge */
-    /* top: -4px; Move button slightly upward for better alignment */
-    border: none; /* Remove button border */
-    outline: none; /* Remove focus outline */
-    height: 43px; /* Set button height */
-    width: 40px; /* Set button width */
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    border: none;
+    outline: none;
+    height: 44px;
+    width: 40px;
 }
 
-/* Change button appearance when active */
 .toggle-btn.active {
-    background-color: none; /* Keep background transparent */
+    background-color: none;
 }
 
-/* Arrow icon styling */
+/* TOGGLE ICON STATES */
 .toggle-btn::before {
-    content: '→'; /* Default arrow direction */
-    font-size: 24px; /* Define arrow size */
+    content: '+';
+    font-size: 35px;
+    color: green;
 }
 
-/* When the navbar is collapsed, change the arrow direction */
-nav.collapsed .toggle-btn::before {
-    content: '←'; /* Change arrow direction to indicate expansion */
+nav:not(.collapsed) .toggle-btn::before {
+    content: '×';
+    color: var(--accent-color);
 }
 
-.active-page {
-    color: var(--accent-color);  /* Change this to your desired color */
+/* ANIMATION: BOUNCE SHRINK WHEN CLOSING */
+@keyframes bounce-shrink {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    60% {
+        transform: translateX(-50%) scale(1.1);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+/* ANIMATION: EXPAND WITH BOUNCE WHEN OPENING */
+@keyframes expand-smooth {
+    0% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.5;
+    }
+    60% {
+        transform: translateX(-50%) scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+        opacity: 1;
+    }
+}
+
+.navbar-wrapper.animate-close {
+    animation: bounce-shrink 0.3s ease forwards;
+}
+
+.navbar-wrapper.animate-open {
+    animation: expand-smooth 0.3s ease forwards;
 }
