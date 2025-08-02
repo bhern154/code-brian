@@ -1,11 +1,12 @@
 body {
-    background-color: var(--secondary-background-color);
+    background-color: white;
 }
 
 .heading {
     text-align: center;
     margin: 0px;
     padding-bottom: 20px;
+    background-color: var(--secondary-background-color);
 }
 
 .accent-color-2 {
@@ -24,98 +25,113 @@ body {
     font-size: 18px;
 }
 
-.gallery-heading {
+.introduction {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1d1d1f;
+    padding: 20px 30px;
     text-align: center;
-    padding: 20px;
+    margin: 0px;
+    background-color: var(--secondary-background-color);
 }
 
-.gallery {
-    margin-bottom: 40px;
-    text-align: center;
-    background-color: white;
-    border-radius: 0px;
-    padding-bottom: 25px;
+
+
+
+/* CODE FOR DIGITAL DESIGN NAVIGATION START */
+
+/* Sticky wrapper */
+.digital-design-nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--secondary-background-color);
+  border-bottom: 4px solid white;
+  overflow-x: auto;
 }
 
-.gallery-title {
-    font-size: 30px;
-    font-weight: bold;
+/* Horizontal scroll */
+.digital-design-nav {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE 10+ */
+  gap: 2px;
+  /* padding: 0.5rem 1rem; */
 }
 
-.gallery-subtitle{
-    font-size: 24px;
+/* Hide scrollbar in WebKit browsers */
+.digital-design-nav::-webkit-scrollbar {
+  display: none;
 }
 
-/* Updated gallery slider to show a partial preview of adjacent images */
-.gallery-slider {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+/* Scoped anchor styling */
+.digital-design-nav > a {
+  width: auto;      /* override 40px */
+  flex: 0 0 auto;   /* prevent flex-grow/shrink */
+  display: inline-block;
+  max-height: fit-content;
+  padding: 7px 15px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  background-color: black;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+  border-radius: 30px;
+}
+
+/* Hover effect */
+.digital-design-nav > a:hover {
+  background-color: var(--accent-color-2);
+}
+
+/* CODE FOR DIGITAL DESIGN NAVIGATION END */
+
+.gallery-container {
+    /* padding: 20px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white !important;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    row-gap: 0px;
+    column-gap: 4px;
+    background-color: white !important;
+}
+
+/* .gallery-item {
+} */
+
+.gallery-item img {
     width: 100%;
-    max-width: 900px;
-    margin: auto;
+    height: auto;
+    /* border-radius: 8px; */
 }
 
-.slider-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    gap: 5px; /* Space between images */
+/* Highlight active nav item */
+.digital-design-nav a.active {
+    background-color: var(--accent-color-2);
 }
 
-.slider-item {
-    flex: 0 0 auto; /* Allow it to take up the correct width */
-    display: flex;
-    justify-content: center;
-}
-
-.slider-item:first-child {
-    padding-left: 5vw; /* Add padding to the left of the first image */
-}
-
-/* Make images have the same width but maintain aspect ratio */
-.slider-item img {
-    width: 100%; /* Set the width to fill the container */
-    height: auto; /* Let the height adjust according to the aspect ratio */
-    object-fit: contain; /* Optional: ensure image is contained within the wrapper */
-}
-
-/* Navigation Buttons */
-.gallery-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.prev { left: 10px; }
-.next { right: 10px; }
 
 
 @media screen and (min-width: 768px) {
 
-    .gallery-container{
-        max-width: 1400px; /* Limit the width on desktop */
-        width: 100%; /* Ensure the body is still full width, limited by max-width */
-        margin: 0 auto; /* Center the body horizontally */
-        height: auto; /* Allow height to adjust based on content */
+    .introduction {
+        line-height: 1.4;
+        font-size: 30px;
     }
 
-    .slider-item:first-child {
-        padding-left: 45px; /* Add padding to the left of the first image */
-    }
-
-    .slider-item img {
-        width: 80%;
-    }
-
-    .gallery{
-        border-radius: 25px;
+    .digital-design-nav {
+        justify-content: center;
     }
 
 }

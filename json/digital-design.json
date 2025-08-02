@@ -1,141 +1,300 @@
 [
+  {
+    "gallery-title": "707 Street - Marketing",
+    "images": [
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Back+To+The+Future+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Hercules+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Scooby-Snacks+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pikachu+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Harry+Potter+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Rugrats+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/War+Machine+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pixar+Flik+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Ellie+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Carl+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnia+Mouse+Strawberry+Macaron+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Marvel+CarnageDrop.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Teaser.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Reveal.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Teaser+Social.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Reveal+Social.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Teaser.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Oliver+&+Company+Revealpng.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+Sakura+Reveal.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+The+Sweetheart Reveal.png"
+      }
+    ]
+  },
+  {
+    "gallery-title": "Jia - Product Design",
+    "images": [
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/SleekCurl Heated Eyelash Curler Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Eyelash Curler Banner.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - About The Curler.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - Battery Life.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - How To Use.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - Lifestyle.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - Opened View.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Heated Eyelash Curler - Why Use It.png" },
+    
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/WipeOut Acne Pimple Patches .Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne - Packaging Back.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne Patch Box 24.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne - How They Work.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne - How To Use.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne - Ingredients.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Wipeout Acne - What's Inside.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch - Back.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch Box 24.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch - Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch - How To Use.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch - Ingredients.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Hangover Patch - Whats Inside.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer Main.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - Box.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - About The Trimmer Head.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - About The Trimmer.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - Battery & Charge.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - Light Up.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - Waterproof.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - What's Inside.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Body Trimmer - WHERE TO USE.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Trimmer Banner.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - About The Trimmer.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - Battery & Charge.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - Feautures.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - Light Up.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - Waterproof.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Nose Hair Trimmer - What's Inside.png" },
+    
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/bb77dfd42083b9278295b23f4d4ad91e (1).png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/3e320bf5f31777d95957bcf901c637ba.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Rose Gold Razor - New Layout No Box.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Shopify - Jia Metal Razor Rose Gold.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - About The Blade.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - How To Replace.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - Where To Use MEN.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Rose Gold - Where To Use.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Dermaplaning Razor Black Sapphire - Main Image No Box.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Shopify - Jia Metal Razor Black Sapphire.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - About The Blade.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - How To Replace.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - Where To Use MEN.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Black Sapphire - Where To Use.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Dermaplaning Razor Sleek Silver - Main Image No Box.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Shopify - Jia Metal Razor Sleek Silver.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - About The Blade.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - How To Replace.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - Where To Use MEN.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Metal Razor Sleek Silver - Where To Use.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razor Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razors Banner.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razor - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razor - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razor - Where To Use MEN.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razor - Where To Use.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razors - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Precision Razors - Blade Description.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Amazon - Jia Folding Razor Champagne Blush.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - Blade Description.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - Where To Use MEN.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/Folding Razor - Where To Use.png" },
+
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor Main Image Square.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razors Banner.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - About The Razor.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - Blade Description.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - Dermaplaning Benefits.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - Hair & Peach Fuzz.png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - Where To Use (2).png" },
+    { "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Product_Assets/BioWheat Razor - Where To Use MEN (2).png" }
+  ]
+  },
     {
-        "gallery-title": "707 Street",
-        "gallery-subtitle": "Social Media & Email Marketing Assets",
-        "gallery-description": "This is a collection of email and social media marketing assets I created for 707 Street's Exclusive Loungefly backpacks.",
+    "gallery-title": "Jia - Marketing",
+    "images": [
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Eyelash Curler Social Ad Da - The Perfect Eyelash Curler Doesn't Exist.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/SleekCurl Mobile Banner Jia Center.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Jia Order Thank You Card 2.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Fathers-Day-Jia_01.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Mothers-Day-Email-2025_011.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Mothers-Day-Email-2025_03 copy.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Folding Sazor Social Ad.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Precision Razors Benefits Orange.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/BioWhat Razors Benefits Orange.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/Metal Razors Benefits Orange No Button.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_Jia_Assets/folding razors Benefits orange.png"
+      }
+    ]
+  },
+  {
+    "gallery-title": "Hermosa Beauty - Marketing",
         "images": [
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Back+To+The+Future+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Hercules+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Scooby-Snacks+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pikachu+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Harry+Potter+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Rugrats+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/War+Machine+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pixar+Flik+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Ellie+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Young+Carl+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Marvel+CarnageDrop.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Stitch+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Teaser.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/TMNT+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Pocahontas+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Ratatouille+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/BATB+Bella+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pirate+Mickey+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Venom+Reveal.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Teaser+Social.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Disney+Pinnocchio+Figaro+Mini+Backpack+Reveal+Social.jpg",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Teaser.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Dr+Seuss+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Oliver+&+Company+Revealpng.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnia+Mouse+Strawberry+Macaron+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+Sakura+Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            },
-            {
-                "image": "https://dhcpxxtb4z5zu.cloudfront.net/Digital_Design_707_Street_Assets/Minnie+Mouse+The+Sweetheart Reveal.png",
-                "description": "Loungefly Exclusive Advertisement"
-            }   
-        ]
-    }
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Briogeo-Colleciton.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/July-4th-Sale-2025.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Kenra-Collection-Web.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Last-Chance-Gift-Kits.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Leaf-&-Flower-Collection-V2_01.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Liters.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Matrix-Collection-3.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Mavala-Collection.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Memorial-Day-2025.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Murad-Discount-10.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/New Arrivals Amika Briogeo Mobile Banner.png"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Olaplex-Collection-Sale.jpg"
+      },
+      {
+        "image": "https://dhcpxxtb4z5zu.cloudfront.net/DD_HB_Assets/Paul-Mitchell-30-Sale.jpg"
+      }
+    ]
+  }
 ]

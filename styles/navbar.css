@@ -16,7 +16,7 @@
 }
 
 /* NAVBAR CONTAINER */
-nav {
+.navbar-nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -24,12 +24,9 @@ nav {
     position: relative;
     padding-right: 40px;
     min-height: 43px;
-    /* padding-top: 5px;
-    padding-bottom: 5px; */
 }
 
-/* NAV ITEMS */
-nav a {
+.navbar-nav a {
     text-decoration: none;
     color: white;
     margin: 0 6px;
